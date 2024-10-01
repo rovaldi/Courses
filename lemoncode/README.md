@@ -4,7 +4,7 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/rovadi/Courses.git
+   git clone https://github.com/rovaldi/Courses.git
    ```
 2. Install packages
    ```sh
@@ -29,4 +29,4 @@ yarn linter
 
 ## Contact
 
-Roberto Valcárcel - roberto.vd6@gmail.com
+Roberto Valcárcel - rovaldi.web@gmail.com
