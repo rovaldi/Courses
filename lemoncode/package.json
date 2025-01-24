@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@babel/core": "^7.25.7",
+    "@babel/plugin-transform-runtime": "^7.25.7",
+    "@babel/plugin-transform-typescript": "^7.25.7",
+    "@babel/preset-env": "^7.25.7",
+    "@babel/preset-react": "^7.25.7",
+    "@babel/preset-typescript": "^7.25.7",
+    "concurrently": "6.0.0",
+    "live-server": "1.2.1",
+    "prettier": "^3.3.3",
+    "sass": "^1.79.4",
+    "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "sass:watch": "sass --watch --no-source-map --stop-on-error src",
+    "server": "live-server --port=5050 --open=src",
+    "start": "concurrently --names \"TS WATCH,SASS WATCH,SERVER\" -c \"bgBlue.bold,bgMagenta.bold,bgGreen.bold,\" \"yarn tsc --watch\" \"yarn sass:watch\" \"yarn server\""
+  }
+}

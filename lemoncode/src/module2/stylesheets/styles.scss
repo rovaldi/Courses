@@ -1,0 +1,30 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 5rem;
+}
+
+.container {
+  margin-bottom: 4rem;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+.title {
+  margin: 0 0 1rem;
+
+  &::first-letter {
+    text-transform: capitalize;
+  }
+}
+
+.text {
+  margin: 0;
+}
