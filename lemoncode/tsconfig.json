@@ -15,11 +15,11 @@
     "moduleResolution": "node",
     // "noEmit": true,
     // "noEmitOnError": true,
-    "outDir": "lib",
     "resolveJsonModule": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
     // "sourceMap": true,
+    "strict": true
   },
   "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["lib", "node_modules", "types"]
+  "exclude": ["node_modules"]
 }
