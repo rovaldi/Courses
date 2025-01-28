@@ -1,0 +1,30 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  padding: 5rem;
+}
+
+.container {
+  margin-bottom: 4rem;
+}
+.container:last-child {
+  margin: 0;
+}
+
+.title {
+  color: #00359f;
+  margin: 0 0 1rem;
+}
+.title::first-letter {
+  text-transform: capitalize;
+}
+
+.text {
+  color: #555;
+  margin: 0;
+}
