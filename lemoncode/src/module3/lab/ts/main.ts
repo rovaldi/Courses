@@ -1,5 +1,7 @@
 import { MusicBands } from "module3/lab/types";
 
+const styles = "background-color:green; font-size:1rem; font-weight: bold;";
+
 const theBeatles: MusicBands = {
   name: "The Beatles",
   year: 1960,
@@ -37,26 +39,26 @@ const theRollingStones: MusicBands = {
 
 console.log(
   `%c${theBeatles.name}`,
-  "background-color:green; font-size:1rem; font-weight: bold;",
+  styles,
   `/ ${theBeatles.year} / ${theBeatles.active} / ${theBeatles.gender}`
 );
 console.log(
   `%c${queen.name}`,
-  "background-color:green; font-size:1rem; font-weight: bold;",
+  styles,
   `/ ${queen.year} / ${queen.active} / ${queen.gender}`
 );
 console.log(
   `%c${acdc.name}`,
-  "background-color:green; font-size:1rem; font-weight: bold;",
+  styles,
   `/ ${acdc.year} / ${acdc.active} / ${acdc.gender}`
 );
 console.log(
   `%c${beethoven.name}`,
-  "background-color:green; font-size:1rem; font-weight: bold;",
+  styles,
   `/ ${beethoven.year} / ${beethoven.active} / ${beethoven.gender}`
 );
 console.log(
   `%c${theRollingStones.name}`,
-  "background-color:green; font-size:1rem; font-weight: bold;",
+  styles,
   `/ ${theRollingStones.year} / ${theRollingStones.active} / ${theRollingStones.gender}`
 );
