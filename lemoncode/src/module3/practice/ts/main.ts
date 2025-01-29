@@ -1,4 +1,4 @@
-import { Movie } from "module3/types";
+import { Movie } from "module3/practice/types";
 
 // null case
 let age: number | null = null;
