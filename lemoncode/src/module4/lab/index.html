@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="stylesheets/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <section class="turno-display">
+      <h1 class="numero-turno" id="turn"></h1>
+      <p class="texto-turno">Please, go to the counter</p>
+      <div class="box-container">
+        <input
+          placeholder="Type the number here..."
+          type="number"
+          id="inputTurn"
+          min="0"
+          max="99"
+        />
+        <button type="button" class="button" id="goButton">Go</button>
+      </div>
+      <div class="box-container">
+        <button type="button" class="button" id="backButton">Back</button>
+        <button type="button" class="button" id="forwardButton">Forward</button>
+        <button type="button" class="button" id="resetButton">Reset</button>
+      </div>
+    </section>
+    <script type="module" src="ts/main.js"></script>
+  </body>
+</html>
